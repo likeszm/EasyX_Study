@@ -1,13 +1,20 @@
-﻿#include <graphics.h>
+﻿/*
+* 名称: EasyX图形库学习记录
+* 
+* 开发环境: VS2019
+* 
+*/
+
+#include <graphics.h>
 #include <conio.h>
 
-void test_fun1(void);
-void test_fun2(void);
-void test_fun3(void);
-void test_fun4(void);
-void test_fun5(void);
-void test_fun6(void);
-void test_fun7(void);
+void test_fun1(void);		//创建窗口
+void test_fun2(void);		//基本的几何图形
+void test_fun3(void);		//文字
+void test_fun4(void);		//缓冲区
+void test_fun5(void);		//外部素材
+void test_fun6(void);		//获取输入
+void test_fun7(void);		//键鼠消息
 
 int main()
 {
